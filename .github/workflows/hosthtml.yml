@@ -14,7 +14,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@4.1.1
+      uses: srushtijibhkate08/github-pages-deploy-action@4.1.1
       with:
         branch: gh-pass # The branch you want to deploy to
         folder: .  # The folder containing your HTML file and other assets
